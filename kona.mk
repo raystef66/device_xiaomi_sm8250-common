@@ -25,6 +25,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/sm8250-common/sm8250-common-vendor.mk)
 
+# Shipping API level
+PRODUCT_SHIPPING_API_LEVEL := 29
+
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := 29
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService
