@@ -18,6 +18,7 @@ cc_binary {
     defaults: ["hidl_defaults"],
     name: "lineage.powershare@1.0-service.xiaomi_kona",
     init_rc: ["lineage.powershare@1.0-service.xiaomi_kona.rc"],
+    vintf_fragments: ["manifest_powershare.xml"],
     srcs: ["service.cpp", "PowerShare.cpp"],
     shared_libs: [
         "libbase",
