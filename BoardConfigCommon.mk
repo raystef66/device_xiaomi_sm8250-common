@@ -146,6 +146,9 @@ BUILD_WITHOUT_VENDOR := true
 TARGET_BOARD_PLATFORM := kona
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno650
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/dev/input/event3"
+
 # Properties
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
