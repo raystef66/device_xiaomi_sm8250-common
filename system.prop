@@ -50,6 +50,7 @@ ro.fingerprint.cleanup.unused=false
 
 #Graphics
 debug.sf.disable_backpressure=1
+debug.cpurend.vsync=false
 
 # IMS
 persist.dbg.volte_avail_ovr=1
