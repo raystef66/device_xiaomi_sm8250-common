@@ -17,6 +17,7 @@ ro.sf.lcd_density=440
 debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
+persist.fod.modified.dc_status=false
 persist.vendor.color.matrix=2
 ro.vendor.display.default_fps=90
 ro.vendor.display.ad=1
@@ -47,6 +48,9 @@ persist.vendor.dpm.feature=9
 #FP
 ro.fingerprint.cleanup.unused=false
 
+#Graphics
+debug.sf.disable_backpressure=1
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
@@ -72,6 +76,9 @@ vendor.display.enable_async_powermode
 
 # Radio
 ro.telephony.default_network=33,22
+
+# RCS
+persist.rcs.supported=1
 
 # Touchscreen
 persist.vendor.qti.inputopts.enable=true
