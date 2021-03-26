@@ -155,8 +155,8 @@ TARGET_USES_MKE2FS := true
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
-# Security patch level
-VENDOR_SECURITY_PATCH := 2020-12-01
+# Vendor security patch level
+VENDOR_SECURITY_PATCH := 2021-03-01
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
