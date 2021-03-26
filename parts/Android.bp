@@ -8,17 +8,13 @@ android_app {
     name: "XiaomiParts",
 
     srcs: ["src/**/*.java"],
-    resource_dirs: ["res"],
+
     certificate: "platform",
     platform_apis: true,
     privileged: true,
 
     static_libs: [
         "org.lineageos.settings.resources",
-        "//hardware/xiaomi:vendor.xiaomi.hardware.displayfeature-V1.0-java",
+        "vendor.xiaomi.hardware.displayfeature-V1.0-java",
     ],
-
-    optimize: {
-        proguard_flags_files: ["proguard.flags"],
-    },
 }

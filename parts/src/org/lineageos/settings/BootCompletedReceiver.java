@@ -23,7 +23,6 @@ import android.content.Intent;
 import android.os.SystemProperties;
 import android.util.Log;
 
-import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.fod.FodUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
@@ -37,7 +36,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         final boolean needs_fod_service = Boolean.parseBoolean(
             SystemProperties.get(FOD_PROP, "true"));
         if (DEBUG) Log.d(TAG, "Received boot completed intent");
-        DozeUtils.checkDozeService(context);
         if (needs_fod_service) FodUtils.startService(context);
     }
 }
