@@ -376,7 +376,8 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     fstab.qcom \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.smartcharging.rc
 
 # Sensors
 PRODUCT_PACKAGES += \
