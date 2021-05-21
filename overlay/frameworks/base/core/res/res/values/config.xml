@@ -293,7 +293,7 @@
         <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
     </string-array>
 
-     <!-- All the capabilities of the LEDs on this device, stored as a bit field.
+    <!-- All the capabilities of the LEDs on this device, stored as a bit field.
           This integer should equal the sum of the corresponding value for each
           of the following capabilities present:
           // Device has a color adjustable battery light.
@@ -325,12 +325,12 @@
           LIGHTS_ADJUSTABLE_BATTERY_LED_BRIGHTNESS = 128
           For example, a device with notification and battery lights that supports
           pulsating and RGB control would set this config to 75. -->
-     <integer name="config_deviceLightCapabilities">232</integer>
+    <integer name="config_deviceLightCapabilities">232</integer>
 
-    <!-- Smart charging -->
-    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
-    <string name="config_SmartChargingSuspendValue" translatable="false">1</string>
-    <string name="config_SmartChargingResumeValue" translatable="false">0</string>
+    <!-- Adaptive charging -->
+    <string name="config_adaptiveChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
+    <string name="config_adaptiveChargingSuspendValue" translatable="false">1</string>
+    <string name="config_adaptiveChargingResumeValue" translatable="false">0</string>
 
     <!-- Whether to show a custom view for FOD -->
     <bool name="config_needCustomFODView">true</bool>
