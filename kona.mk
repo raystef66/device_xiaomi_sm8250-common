@@ -189,7 +189,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.touchfeature@1.0.vendor
 
 PRODUCT_COPY_FILES += \
-    vendor/derp/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+    vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
 # Health
 PRODUCT_PACKAGES += \
