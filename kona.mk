@@ -144,10 +144,6 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
-# Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
@@ -183,6 +179,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
+    FODService \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_kona \
     vendor.xiaomi.hardware.fingerprintextension@1.0.vendor \

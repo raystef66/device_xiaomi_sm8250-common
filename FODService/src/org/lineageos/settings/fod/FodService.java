@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.fod;
+package org.lineageos.fodservice.fod;
 
 import android.app.Service;
 import android.content.BroadcastReceiver;
@@ -22,7 +22,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.IBinder;
-import android.os.RemoteException;
 import android.util.Log;
 
 import vendor.xiaomi.hardware.displayfeature.V1_0.IDisplayFeature;
@@ -38,9 +37,9 @@ public class FodService extends Service {
             if (Intent.ACTION_SCREEN_ON.equals(action)) {
                 try {
                     IDisplayFeature mDisplayFeature = IDisplayFeature.getService();
-                    mDisplayFeature.setFeature(0, 1, 2, 255);
+                    mDisplayFeature.setFeature(0, 0, 2, 255);
                     mDisplayFeature.setFeature(0, 3, 0, 255);
-                } catch (RemoteException e) {
+                } catch (Exception e) {
                     // Do nothing
                 }
             }

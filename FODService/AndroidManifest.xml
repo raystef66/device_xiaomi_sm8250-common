@@ -16,24 +16,18 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.lineageos.settings"
+    package="org.lineageos.fodservice"
     android:versionCode="1"
     android:versionName="1.0"
     android:sharedUserId="android.uid.system">
 
-    <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <uses-sdk
         android:minSdkVersion="24"
         android:targetSdkVersion="24"/>
 
-    <application
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/device_settings_app_name"
-        android:persistent="true"
-        android:theme="@style/Theme.Main">
+    <application>
 
         <receiver android:name=".BootCompletedReceiver">
             <intent-filter>
