@@ -5,15 +5,16 @@
 //
 
 android_app {
-    name: "FODService",
+    name: "XiaomiParts",
 
     srcs: ["src/**/*.java"],
+
     certificate: "platform",
     platform_apis: true,
     privileged: true,
 
     static_libs: [
-        //"org.lineageos.settings.resources",
+        "org.lineageos.settings.resources",
         "vendor.xiaomi.hardware.displayfeature-V1.0-java",
     ],
 }
