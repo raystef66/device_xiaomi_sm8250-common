@@ -249,6 +249,13 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <devicePort tagName="Speaker" role="sink" type="AUDIO_DEVICE_OUT_SPEAKER" address="">
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
                              samplingRates="48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                    <gains>
+                        <gain name="gain_1" mode="AUDIO_GAIN_MODE_JOINT"
+                              minValueMB="-8400"
+                              maxValueMB="4000"
+                              defaultValueMB="0"
+                              stepValueMB="100"/>
+                    </gains>
                 </devicePort>
                 <devicePort tagName="Wired Headset" type="AUDIO_DEVICE_OUT_WIRED_HEADSET" role="sink">
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
