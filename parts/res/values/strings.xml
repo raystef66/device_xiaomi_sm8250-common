@@ -107,8 +107,8 @@
     <string name="music_headset_scenario_vocal">Voice</string>
 
     <!--Display settings fragment -->
-    <string name="display_settings_title">Custom Display Settings</string>
-    <string name="display_settings_summary">HBM</string>
+    <string name="display_settings_title">Custom display settings</string>
+    <string name="display_settings_summary">HBM, DC Dimming</string>
 
     <!-- HBM settings -->
     <string name="hbm_mode_title">High Brightness Mode</string>
