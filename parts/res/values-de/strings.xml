@@ -1,1 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Popup camera settings -->
+    <string name="popup_led_title">Kamera-LED</string>
+    <string name="popup_led_summary">LED beim Ein- und Ausfahren der Frontkamera einschalten</string>
+    <string name="popup_title">Soundeffekte für Frontkamera</string>
+    <string name="popup_title_muqin">Xylophon</string>
+    <string name="popup_title_yingyan">Kondor</string>
+    <string name="popup_title_mofa">Zauberkunst</string>
+    <string name="popup_title_jijia">Mech</string>
+    <string name="popup_title_chilun">Zahnrad</string>
+    <string name="popup_title_cangmen">Kabinentür</string>
+
+    <!-- Popup camera strings -->
+    <string name="popup_camera_tip">Achtung</string>
+    <string name="popup_camera_takeback_failed_times_calibrate">Frontkamera konnte mehrfach nicht eingefahren werden und muss ggf. kalibriert werden.</string>
+    <string name="popup_camera_popup_failed_times_calibrate">Frontkamera konnte mehrfach nicht ausgefahren werden und muss ggf. kalibriert werden.</string>
+    <string name="popup_camera_calibrate_running">Frontkamera kann während des Kalibrierens nicht genutzt werden.</string>
+    <string name="popup_camera_calibrate_now">Kalibrieren</string>
+    <string name="popup_camera_calibrate_failed">Kalibrieren fehlgeschlagen</string>
+    <string name="popup_camera_calibrate_success">Erfolgreich kalibriert. Die Frontkamera kann jetzt ausgefahren werden.</string>
+    <string name="stop_operate_camera_frequently">Die Frontkamera wird zu häufig hintereinander ausgefahren.</string>
+    <string name="takeback_camera_front_failed">Frontkamera konnte nicht eingefahren werden. Bitte erneut versuchen.</string>
+    <string name="popup_camera_front_failed">Frontkamera konnte nicht ausgefahren werden. Bitte erneut versuchen.</string>
+
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Temperaturprofile</string>
+    <string name="thermal_summary">Zur Leistungsoptimierung App-spezifische Temperaturprofile einstellen</string>
+    <string name="thermal_default">Standard</string>
+    <string name="thermal_benchmark">Benchmark</string>
+    <string name="thermal_browser">Browser</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_dialer">Telefonie</string>
+    <string name="thermal_gaming">Spiele</string>
+    <string name="thermal_streaming">Streamen</string>
+
+    <!-- Per-app refresh rate -->
+    <string name="refresh_title">App-spezifische Bildwiederholrate</string>
+    <string name="refresh_summary">Maximale Bildwiederholrate für einzelne Apps festlegen</string>
+    <string name="refresh_default">Standard</string>
+    <string name="refresh_standard">60 Hz</string>    
+    <string name="refresh_extreme">120 Hz</string>    
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Lautsprecher reinigen</string>
+    <string name="clear_speaker_summary">Spielt einen 30-sekündigen Ton ab, um den Lautsprecher von Verunreinigungen zu befreien</string>
+    <string name="clear_speaker_description">Ein- bis zweimal ausführen, falls der Lautsprecher mit Staub verstopft ist; Medienlautstärke dabei auf 100 % setzen.\n\nBei stark verschmutztem Lautsprecher zwei- bis fünfmal ausführen und das Gerät mit nach unten gerichtetem Lautsprecher schütteln.\n\nACHTUNG: Auf keinen Fall mit eingesteckten Kopfhörern ausführen!</string>
+</resources>
 
