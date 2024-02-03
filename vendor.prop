@@ -126,7 +126,7 @@ vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture
 persist.vendor.camera.logInfoMask=false
 
 # Chipset
-ro.soc.manufacturer=Qualcomm
+ro.soc.manufacturer=QTI
 ro.soc.model=SM8250
 
 # Crypto
