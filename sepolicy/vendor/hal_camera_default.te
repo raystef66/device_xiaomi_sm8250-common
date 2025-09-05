@@ -13,6 +13,9 @@ r_dir_file(hal_camera_default, vendor_persist_sensors_file)
 # Allow hal_camera_default to access Xiaomi remosaic daemon
 allow hal_camera_default vendor_remosaic_daemon_service:service_manager find;
 
+# allow hal_camera_default to access sys_thermal_flash_state
+allow hal_camera_default sys_thermal_flash_state:file { read open write getattr };
+
 # Allow setting camera properties
 set_prop(hal_camera_default, vendor_camera_prop)
 
